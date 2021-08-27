@@ -24,7 +24,7 @@
     }
 
   } else if(!isset($_GET['id'])){
-    header('location: /');
+    header('location: ./index.php');
   }
 
 ?>
@@ -47,7 +47,7 @@
     'Los datos se guardaron en la base de datos' : 
     'No se pudo guardar la información, favor de intentarlo después'?></p>
     <hr>
-    <p class="mb-0"><a href="/"> Volver a atrás</a></p>
+    <p class="mb-0"><a href="./index.php"> Volver a atrás</a></p>
   </div>
   <?php endif; ?>
 

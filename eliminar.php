@@ -15,7 +15,7 @@ if(isset($_POST['id'])){
 
 } else if(!isset($_GET['id'])){
   // Redirigimos si no hay ID
-  header('location: /');
+  header('location: ./index.php');
 }
 
 ?>
@@ -41,7 +41,7 @@ if(isset($_POST['id'])){
         <p>Elemento eliminado correctamente</p>
         <hr>
         <p class="mb-0">
-          <a href="/" role="button" class="btn btn-primary">Ok</a>
+          <a href="./index.php" role="button" class="btn btn-primary">Ok</a>
         </p>
       </div>
 
@@ -56,7 +56,7 @@ if(isset($_POST['id'])){
         <p class="mb-0">
 
           <input type="submit" value="Eliminar" class="btn btn-danger">
-          <a href="/" role="button" class="btn btn-primary">Cancelar</a>
+          <a href="./index.php" role="button" class="btn btn-primary">Cancelar</a>
         </p>
       </div>
     </form>
