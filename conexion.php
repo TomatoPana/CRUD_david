@@ -1,7 +1,7 @@
 <?php
 try {
-  $user = "root";
-  $pass = "Motherboardmod1997.";
+  $user = "#";
+  $pass = "#";
   $dbh = new PDO('mysql:host=localhost;dbname=pfinal', $user, $pass);
 
 } catch (PDOException $e) {
